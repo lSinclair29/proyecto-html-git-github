@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sistema web para registrar, consultar y dar seguimiento a casos de servicio técnico.">
+<title>Contacto | Gestión de Casos</title>
+</head>
+<body>
+<header>
+<img src="img/logo-proyecto.png" alt="Gestión de Casos - Servicio Técnico" width="450">
+<h1>Sistema de Gestión de Casos</h1>
+<p>Registro y seguimiento de solicitudes de servicio técnico</p>
+<nav aria-label="Navegación principal">
+<a href="index.html">Inicio</a> |
+<a href="casos.html">Casos</a> |
+<a href="nuevo-caso.html">Nuevo caso</a> |
+<a href="contacto.html">Contacto</a>
+</nav>
+<hr>
+</header>
+<main>
+
+<section>
+<h2>Contacto</h2>
+<p>Utilice el siguiente formulario para enviar una consulta relacionada con el sistema o con una solicitud de servicio.</p>
+
+<form action="confirmacion.html" method="get">
+<p><label for="nombre-contacto">Nombre:</label><br>
+<input type="text" id="nombre-contacto" name="nombre" required></p>
+
+<p><label for="correo-contacto">Correo:</label><br>
+<input type="email" id="correo-contacto" name="correo" required></p>
+
+<p><label for="asunto-contacto">Asunto:</label><br>
+<input type="text" id="asunto-contacto" name="asunto" required maxlength="100"></p>
+
+<p><label for="mensaje">Mensaje:</label><br>
+<textarea id="mensaje" name="mensaje" rows="6" cols="50" required></textarea></p>
+
+<button type="submit">Enviar consulta</button>
+</form>
+</section>
+
+</main>
+<hr>
+<footer>
+<p>Sistema de Gestión de Casos | Servicio Técnico</p>
+</footer>
+</body>
+</html>
