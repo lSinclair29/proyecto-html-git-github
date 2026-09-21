@@ -1,0 +1,11 @@
+Historial del proyecto
+
+- Crea estructura inicial del proyecto HTML
+- Documenta objetivo y estructura del proyecto
+- Agrega configuración básica de Git
+- Agrega página de contacto
+- Agrega confirmación de formularios
+- Agrega tabla de casos
+- Agrega formulario de registro de casos
+- Agrega vista de detalle del caso
+- Documenta flujo de Git y GitHub para la exposición
